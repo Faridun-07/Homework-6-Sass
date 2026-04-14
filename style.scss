@@ -87,7 +87,7 @@ header{
         font-size: 10px;
         background-color: transparent;
     }
-    .section2, .section3, .section4{
+    .section2, .section3, .section4, .section5{
         max-width: $maxwidth;
         margin: auto;
         display: flex;
@@ -188,6 +188,14 @@ header{
         flex-direction: column;
         gap: 50px;
     }
+    .flex2{
+        display: flex;
+        justify-content: center;
+    }
+    .posit{
+        position: relative;
+        bottom: 50px;
+    }
 
 
 
@@ -275,5 +283,16 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+}
+.flex2{
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+    gap: 50px;
+    padding: 0px 20px;
+}
+.posit{
+    bottom: 0px;
 }
 }
