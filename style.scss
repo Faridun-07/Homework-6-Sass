@@ -240,7 +240,55 @@ header{
     .text{
         display: none;
     }
-    
+    .footer{
+        max-width: $maxwidth;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+    }
+    .column4{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        h2{
+            color: #252B42;
+        }
+        p{
+            color: gray;
+        }
+    }
+    .icon2{
+        display: flex;
+        gap: 20px;
+    }
+    .column5{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            color: #252B42;
+        }
+    }
+    .column6{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p{
+            color: gray;
+        }
+    }
+    .footer2{
+        background-color: #FAFAFA;
+        p{
+            text-align: center;
+            color: gray;
+        }
+        padding: 30px 0px;
+
+    }
+
 
 
 
@@ -356,5 +404,19 @@ header{
 .but4{
     left: 193px;
     bottom: 44px;
+}
+.footer{
+    flex-direction: column;
+    gap: 50px;
+}
+.footer2{
+    display: flex;
+    justify-content: center;   
+    padding-left: 20px;
+    padding-right: 20px;
+    p{
+        width: 250px;
+        
+    }
 }
 }
